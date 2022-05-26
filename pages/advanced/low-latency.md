@@ -1,18 +1,9 @@
 ---
 layout: default
 title: Low Latency Streaming
-parent: Tutorials
-nav_order: 1
+parent: Advanced Features
+nav_order: 3
 ---
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 # Low Latency Streaming
 
@@ -69,7 +60,7 @@ The Common Media Application Format introduces the concept of "chunks". A CMAF c
 boxes, allowing the client to access the media data before the segment is completely finished. The benefits of the
 chunked mode become more obvious when looking at a concrete example:
 
-<img src="https://websites.fraunhofer.de/video-dev/wp-content/uploads/2019/12/latency-segments-2-1536x1196.png" height="400" />
+<img src="/assets/images/ll-streaming.png" />
 
 So let’s assume we have 8 second segments and we are currently 3 seconds into segment number four. For classic media
 segments, this leaves us with two options:
@@ -96,12 +87,12 @@ dash.js supports CMAF low latency streaming since version 2.6.8. For that reason
 The following Sections below will give a detailed explanation on L2ALL and LoL+. Some parameters are valid for all low
 latency algorithms:
 
-Parameter | Description
---- | --- 
-liveDelay | Lowering this value will lower latency but may decrease the player's ability to build a stable buffer.
-maxDrift | Maximum latency deviation allowed before dash.js to do a seeking to live position
-playbackRate | Maximum catch-up rate, as a percentage, for low latency live streams.
-latencyThreshold | The maximum threshold for which live catch up is applied. For instance, if this value is set to 8 seconds, then live catchup is only applied if the current live latency is equal or below 8 seconds. The reason behind this parameter is to avoid an increase of the playback rate if the user seeks within the DVR window.
+| Parameter        | Description                                                                                                                                                                                                                                                                                                                  |
+|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| liveDelay        | Lowering this value will lower latency but may decrease the player's ability to build a stable buffer.                                                                                                                                                                                                                       |
+| maxDrift         | Maximum latency deviation allowed before dash.js to do a seeking to live position                                                                                                                                                                                                                                            |
+| playbackRate     | Maximum catch-up rate, as a percentage, for low latency live streams.                                                                                                                                                                                                                                                        |
+| latencyThreshold | The maximum threshold for which live catch up is applied. For instance, if this value is set to 8 seconds, then live catchup is only applied if the current live latency is equal or below 8 seconds. The reason behind this parameter is to avoid an increase of the playback rate if the user seeks within the DVR window. |
 
 The corresponding API call looks the following:
 
@@ -837,7 +828,7 @@ Low Latency (Multi-Rate) (livesim-chunked) | 8s | 1s | https://livesim.dashif.or
 * [2] [Daniel Silhavy - dash.js – Low Latency Streaming with CMAF ](https://websites.fraunhofer.de/video-dev/dash-js-low-latency-streaming-with-cmaf/)
 * [3] Abdelhak Bentaleb, Mehmet N. Akcay, May Lim, Ali C. Begen, R. Zimmermann - Catching the Moment with LoL + in
   Twitch-Like Low-Latency Live Streaming Platforms (to appear in IEEE Trans. Multimedia
-  - [pdf](http://dx.doi.org/10.1109/TMM.2021.3079288))
+    - [pdf](http://dx.doi.org/10.1109/TMM.2021.3079288))
 * [4] [DASH-IF DASH Live Services](https://dashif.org/docs/CR-Low-Latency-Live-r8.pdf)
 * [5] [Theo Karagkioules,R. Mekuria,Dirk  Griffioen, Arjen  Wagenaar - Online learning for low-latency adaptive streaming](https://dl.acm.org/doi/pdf/10.1145/3339825.3397042)
 

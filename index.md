@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+nav_order: 1
 ---
 
 <img src="https://cloud.githubusercontent.com/assets/2762250/7824984/985c3e76-03bc-11e5-807b-1402bde4fe56.png" width="400">

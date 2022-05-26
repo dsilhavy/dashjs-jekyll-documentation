@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Getting Started
-nav_order: 1
+title: Setup
+parent: Quickstart
+nav_order: 2
 ---
 
-# Getting Started
+# Setup
 
-The standard setup method uses javascript to initialize and provide video details to dash.js. `MediaPlayerFactory`
-provides an alternative declarative setup syntax.
+The standard setup method uses JavaScript to initialize and provide video details to dash.js. 
+
+## Examples
+Multiple examples showcasing the different ways to initialize the player are available in
+the [sample section](https://reference.dashif.org/dash.js/nightly/samples/).
 
 ## Standard Setup
 
@@ -111,9 +115,3 @@ When it is all done, it should look similar to this:
 </body>
 </html>
 ```
-
-## Module Setup
-
-We publish dash.js to [npm](https://www.npmjs.com/package/dashjs). Examples of how to use dash.js in different module
-bundlers can be found in
-the [`samples/modules`](https://github.com/Dash-Industry-Forum/dash.js/tree/development/samples/modules) directory.
