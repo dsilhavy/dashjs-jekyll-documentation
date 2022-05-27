@@ -60,7 +60,7 @@ player.updateSettings({
             backgroundAttempts: 2
         }
     }
-})
+});
 ```
 
 #### Synchronization after MPD updates
@@ -100,7 +100,7 @@ player.updateSettings({
             timeBetweenSyncAttempts: 30
         }
     }
-})
+});
 ```
 
 #### Post-synchronization parameter adjustment

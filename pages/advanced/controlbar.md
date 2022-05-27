@@ -9,7 +9,7 @@ nav_order: 1
 dash.js ships with an implementation of a controlbar implementing the various APIs of the player (see screenshot below).
 It is located in `contrib/akamai/controlbar`.
 
-<img src="/assets/images/controlbar.png" />
+![Controlbar](/assets/images/controlbar.png)
 
 ## Example
 An example is available as part of the [sample section](https://reference.dashif.org/dash.js/nightly/samples/getting-started/controlbar.html).
