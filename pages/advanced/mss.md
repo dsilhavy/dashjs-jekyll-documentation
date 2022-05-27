@@ -7,7 +7,7 @@ nav_order: 1
 
 # Microsoft Smooth Streaming
 
-Next to playback of MPEG-DASH content, dash.js supports playback of the legacy Smooth Streaming format. For that reason,
+In adition to playback of MPEG-DASH content, dash.js supports playback of the legacy Smooth Streaming format. For that reason,
 a conversion of the Smooth Streaming manifest files and media segments is performed directly in dash.js on the client side.
 
 ## Example
