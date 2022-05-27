@@ -60,7 +60,7 @@ The Common Media Application Format introduces the concept of "chunks". A CMAF c
 boxes, allowing the client to access the media data before the segment is completely finished. The benefits of the
 chunked mode become more obvious when looking at a concrete example:
 
-![ll](/assets/images/ll-streaming.png)
+![ll]({{site.baseurl}}/assets/images/ll-streaming.png)
 
 So let’s assume we have 8 second segments and we are currently 3 seconds into segment number four. For classic media
 segments, this leaves us with two options:
