@@ -39,7 +39,6 @@ aux_links_new_tab: false
 color_scheme: custom
 
 # Build settings
-theme: just-the-docs
 plugins:
   - jekyll-feed
 
