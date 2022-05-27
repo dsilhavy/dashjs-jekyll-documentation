@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Akamai Controlbar
+title: Controlbar
 parent: Advanced Features
 nav_order: 1
 ---
 
-# Akamai Controlbar
+# Controlbar
 dash.js ships with an implementation of a controlbar implementing the various APIs of the player (see screenshot below).
 It is located in `contrib/akamai/controlbar`.
 
