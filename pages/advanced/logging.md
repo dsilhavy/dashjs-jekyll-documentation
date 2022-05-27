@@ -15,14 +15,14 @@ An example is available as part of the [sample section](https://reference.dashif
 
 ## Log level
 
-| Log level                      | Numeric value | Description                                                                                |
-|:-------------------------------|:--------------|:-------------------------------------------------------------------------------------------|
-| dashjs.Debug.LOG_LEVEL_NONE    | 0             | No message is written in the browser console                                               |
-| dashjs.Debug.LOG_LEVEL_FATAL   | 1             | Log fatal errors. An error is considered fatal when it causes playback to fail completely. |
-| dashjs.Debug.LOG_LEVEL_ERROR   | 2             | Log error messages                                                                         |
-| dashjs.Debug.LOG_LEVEL_WARNING | 3             | Log warning messages                                                                       |
-| dashjs.Debug.LOG_LEVEL_INFO    | 4             | Log info messages                                                                          |
-| dashjs.Debug.LOG_LEVEL_DEBUG   | 5             | Log all messages                                                                           |
+| Log level                        | Numeric value | Description                                                                                |
+|:---------------------------------|:--------------|:-------------------------------------------------------------------------------------------|
+| `dashjs.Debug.LOG_LEVEL_NONE`    | 0             | No message is written in the browser console                                               |
+| `dashjs.Debug.LOG_LEVEL_FATAL`   | 1             | Log fatal errors. An error is considered fatal when it causes playback to fail completely. |
+| `dashjs.Debug.LOG_LEVEL_ERROR`   | 2             | Log error messages                                                                         |
+| `dashjs.Debug.LOG_LEVEL_WARNING` | 3             | Log warning messages                                                                       |
+| `dashjs.Debug.LOG_LEVEL_INFO`    | 4             | Log info messages                                                                          |
+| `dashjs.Debug.LOG_LEVEL_DEBUG`   | 5             | Log all messages                                                                           |
 
 
 ## Setting the log level

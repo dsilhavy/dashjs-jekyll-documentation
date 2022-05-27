@@ -2,7 +2,7 @@
 layout: default
 title: MPD and Inband Events
 parent: Advanced Features
-nav_order: 3
+nav_order: 1
 ---
 
 <details  markdown="block">

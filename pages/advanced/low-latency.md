@@ -2,7 +2,7 @@
 layout: default
 title: Low Latency Streaming
 parent: Advanced Features
-nav_order: 3
+nav_order: 1
 ---
 
 # Low Latency Streaming
