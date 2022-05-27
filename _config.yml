@@ -23,7 +23,7 @@ remote_theme: just-the-docs/just-the-docs
 email: daniel.silhavy@fokus.fraunhofer.de
 description: >- # this means to ignore newlines until "baseurl:"
   dash.js - Official reference client of the DASH-Industry-Forum
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsilhavy
 github_username:  dsilhavy
