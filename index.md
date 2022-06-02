@@ -20,9 +20,7 @@ If your intent is to use the player code without contributing back to this proje
 holds the approved and stable public releases.
 
 If your goal is to improve or extend the code and contribute back to this project, then you should make your changes in,
-and submit a pull request against, the `development` branch. Read
-our [CONTRIBUTION.md](https://github.com/Dash-Industry-Forum/dash.js/blob/development/CONTRIBUTING.md) file for a
-walk-through of the contribution process.
+and submit a pull request against, the `development` branch.
 
 # Demos and reference players
 All these reference builds and minified files are available under both http and https.
@@ -52,7 +50,6 @@ instance "v3.1.0".
 - [http://cdn.dashjs.org/vx.x.x/dash.all.min.js](http://cdn.dashjs.org/v3.1.0/dash.all.min.js)
 - [http://cdn.dashjs.org/vx.x.x/dash.all.debug.js](http://cdn.dashjs.org/v3.1.0/dash.all.debug.js)
 
-
 # API Documentation
 
 Full [API Documentation](http://cdn.dashjs.org/latest/jsdoc/module-MediaPlayer.html) is available describing all public
@@ -61,45 +58,6 @@ methods, interfaces, properties, and events.
 For help, join our [Slack channel](https://dashif-slack.azurewebsites.net),
 our [email list](https://groups.google.com/d/forum/dashjs) and read
 our [wiki](https://github.com/Dash-Industry-Forum/dash.js/wiki).
-
-## Tutorials
-
-Detailed information on specific topics can be found in our tutorials:
-
-* [Low latency streaming](https://github.com/Dash-Industry-Forum/dash.js/wiki/Low-Latency-streaming)
-* [UTCTiming Clock synchronization](https://github.com/Dash-Industry-Forum/dash.js/wiki/UTCTiming---Clock-synchronization)
-* [Digital Rights Management (DRM) and license acquisition](https://github.com/Dash-Industry-Forum/dash.js/wiki/Digital-Rights-Management-(DRM)-and-license-acquisition)
-* [Buffer and scheduling logic](https://github.com/Dash-Industry-Forum/dash.js/wiki/Buffer-and-Scheduling-Logic)
-
-## Quick Start for Developers
-
-1. Install Core Dependencies
-    * [install nodejs](http://nodejs.org/)
-2. Checkout project repository (default branch: development)
-    * ```git clone https://github.com/Dash-Industry-Forum/dash.js.git```
-3. Install dependencies
-    * ```npm install```
-4. Build, watch file changes and launch samples page, which has links that point to reference player and to other
-   examples (basic examples, captioning, ads, live, etc).
-    * ```npm run start```
-
-### Other Tasks to Build / Run Tests on Commandline.
-
-* Build distribution files (minification included)
-    * ```npm run build```
-* Build and watch distribution files
-    * ```npm run dev```
-* Run linter on source files (linter is also applied when building files)
-    * ```npm run lint```
-* Run unit tests
-    * ```npm run test```
-* Generate API jsdoc
-    * ```npm run doc```
-
-### Troubleshooting
-
-* In case the build process is failing make sure to use an up-to-date node.js version. The build process was
-  successfully tested with node.js version 14.16.1.
 
 ### License
 

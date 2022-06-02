@@ -29,20 +29,6 @@ The payload of the event is passed as an object to the callback function
 ```javascript
 function showEvent(e) {
     log("Event received: " + e.type);
-    for (var name in e) {
-
-        if (typeof e[name] != 'object') {
-            log("    " + name + ": " + e[name]);
-        }
-    }
-    for (name in e) {
-        if (typeof e[name] == 'object') {
-            log("    " + name + ":");
-            for (name2 in e[name]) {
-                log("        " + name2 + ": " + JSON.stringify(e[name][name2]));
-            }
-        }
-    }
 }
 ```
 

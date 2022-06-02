@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MPD and Inband Events
+title: Event handling - MPD and Inband events
 parent: Advanced Features
 nav_order: 1
 ---
